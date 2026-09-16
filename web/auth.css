@@ -1,0 +1,9 @@
+.login-dialog { width: min(430px, 92vw); }
+.login-dialog label { margin-top: 18px; }
+.full-button { width: 100%; margin-top: 15px; }
+.screening { background: #f7faf7; }
+.screening-list { display: grid; gap: 8px; margin: 14px 0; }
+.screening-item { padding: 11px; border: 1px solid var(--border); border-radius: 6px; font-size: 11px; overflow-wrap: anywhere; }
+.screening-item small { display: block; color: var(--muted); margin-top: 5px; }
+.badge.clear { background: #eaf4eb; color: #3e8355; }
+.badge.match, .badge.error { background: #fff0e9; color: #b56b42; }
